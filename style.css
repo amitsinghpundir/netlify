@@ -1,7 +1,72 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
+}
+
+
+.hero {
+  min-height: 100vh;
+  background-image: url("assests/bd.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.margin{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.nav{
+   display: flex;
+   justify-content: center;     
+   
+}
+
+
+.logo{
+  width: 102px;
+  height: 24PX;
+}
+
+
+.link{
+    margin: 0px 60px 0px 160px;
+}
+
+
+.header{
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  color: white;
+
+}
+
+
+.Contact{
+  padding: 8px 12px 8px 12px;
+  border-radius: 24px;
+  color: white;
+  background-color: rgba(240, 248, 255, 0.09);
+  border-color: rgba(240, 248, 255, 0.09); ;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 8px;
+  
+}
+
+.start{
+  padding: 8px 12px 8px 12px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  border-color: white;
+   font-size: 14px;
+  font-weight: 500;
 }
 
